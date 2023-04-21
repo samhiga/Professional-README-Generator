@@ -7,29 +7,38 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [{
     type: 'input',
     message: 'What is the project title?',
-    name: 'Title',
+    name: 'title',
   },
   {
     type: 'input',
     message: 'What is your GitHub username',
-    name: 'GitHub username',
+    name: 'gitHubUsername',
   },
   {
     type: 'input',
     message: 'what is your email address?',
     name: 'email',
   },
+  {
+    type: 'list',
+    message: 'what license are you using?',
+    name: 'license',
+    choices: ['apache', 'mit','none']
+  }
 
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-fs.writeFile(fileName)
+return fs.writeFileSync(fileName, data)
 }
 
 // TODO: Create a function to initialize app
 function init() {
-   writeToFile(fileName, data)
+  inquirer.prompt(questions).then(response => {
+    console.log("writing README")
+    writeToFile("user_README.md", generateMarkdown(response))
+  })
 
 }
 
