@@ -36,6 +36,7 @@ function generateMarkdown(data) {
 
 
 ## Description 
+${data.description}
 
 
 ## Table of Contents 
@@ -46,19 +47,26 @@ function generateMarkdown(data) {
 ${renderLicenseLink(data.license)}
 
 ## Installation
-
+${data.installation}
 
 ## Usage 
-
-
-## Credits
-${data.gitHubUsername}
+${data.usage}
 
 ${renderLicenseSection(data.license)}
 
 
 ## Badges
 ${renderLicenseBadge(data.license)}
+
+## Contributing
+${data.contributing}
+
+## Tests
+${data.tests}
+
+## Questions
+${data.gitHubUsername}
+${data.email}
 
 `;
 }
