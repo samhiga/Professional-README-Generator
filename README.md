@@ -28,7 +28,6 @@ If your README is very long, add a table of contents to make it easy for users t
 * [Usage](#usage)
 * [Learning Points](#learning-points)
 * [Author Info](#author-info)
-* [Credits](#credits)
 
 
 
