@@ -1,8 +1,8 @@
-# code
+# Code Refactor
 
 
 ## Description 
-no
+It can refactor any code 
 
 
 ## Table of Contents 
@@ -16,10 +16,10 @@ no
 
 
 ## Installation
-y
+Download it from GitHub
 
 ## Usage 
-yes
+Press the button to refactor any code
 
 ## License
 
@@ -30,11 +30,11 @@ This project uses the mit license.
 ![license](https://img.shields.io/badge/mit-green.svg)
 
 ## Contributing
-ffff
+feel free to add to it
 
 ## Tests
-sfsfsdf
+feel free to test it out
 
 ## Questions
-If you have any questions, issues, or wish to view my other repos, please visit my GitHub account, [samhiga](https://www.github.com/samhiga), or send me an email at [sam@sam](mailto:sam@sam)!
+If you have any questions, issues, or wish to view my other repos, please visit my GitHub account, [samhiga](https://www.github.com/samhiga), or send me an email at [sam@example.com](mailto:sam@example.com)!
 
