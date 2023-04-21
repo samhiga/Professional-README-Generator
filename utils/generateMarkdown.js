@@ -43,8 +43,11 @@ ${data.description}
 
 * [Installation](#installation)
 * [Usage](#usage)
-* [Credits](#credits)
 ${renderLicenseLink(data.license)}
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+
 
 ## Installation
 ${data.installation}
@@ -65,8 +68,7 @@ ${data.contributing}
 ${data.tests}
 
 ## Questions
-${data.gitHubUsername}
-${data.email}
+If you have any questions, issues, or wish to view my other repos, please visit my GitHub account, [${data.gitHubUsername}](https://www.github.com/${data.gitHubUsername}), or send me an email at [${data.email}](mailto:${data.email})!
 
 `;
 }
